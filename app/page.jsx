@@ -25,8 +25,8 @@ export default function Home() {
             },
             templates: {
               header({ html }) {
-                return html`<h1 class="bg-linear-to-bl from-violet-700 to-fuchsia-700 bg-clip-text text-transparent font-bold ml-3 mb-5">
-                Sugerencias de Klanet
+                return html`<h1 class="bg-linear-to-bl from-cyan-500 to-blue-500 bg-clip-text text-transparent font-bold ml-3 mb-5">
+                Sugerencias de RG Tech
               </h1>`
               },
               item({ item, html }) {
@@ -37,7 +37,7 @@ export default function Home() {
                     </div>
                     <div className="flex flex-col gap-2">
                       <h2 className=" font-bold ">${item.nombre}</h2>
-                      <p className=" text-sm">${item.slug}</p>
+                      <p className=" text-sm">${item.descripcion}</p>
                     </div>
                   </div>
                 `;
@@ -51,10 +51,10 @@ export default function Home() {
   }, [])
 
   return (
-    <main className="h-screen bg-linear-to-bl from-violet-700 to-fuchsia-700">
+    <main className="h-screen bg-linear-to-bl from-cyan-500 to-blue-500">
       <section className="flex  justify-center  h-full">
         <div className="flex flex-col items-center gap-10 w-full px-5 md:w-2/3 mt-24">
-          <h1 className="font-bold text-7xl text-white">Klanet</h1>
+          <h1 className="font-bold text-7xl text-white">RG Tech</h1>
           <div className="w-full" id="autocomplete"></div>
         </div>
       </section>
