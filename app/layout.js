@@ -9,6 +9,14 @@ import "./globals.css";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <title>Algolia Autocomplete</title>
+        <meta name="description" content="Test of the algolia autocomplete." />
+        <meta name="keywords" content="autocomplete, algolia" />
+        <meta name="author" content="Dany Rivera" />
+        <link rel="icon" href="/logo.webp" />
+        <link rel="apple-touch-icon" href="/logo-app.png"></link>
+      </head>
       <body>
         {children}
       </body>
