@@ -24,7 +24,7 @@
     "id": 5,
     "nombre": "CURSOS",
     "slug": "cursos",
-    "descripcion": "Catálogo de cursos de Klanet Academy",
+    "descripcion": "Catálogo de cursos",
     "imagen": "https://categories-content.klanet.world/mx/f4b67a22-dbb3-42f2-9be3-400c483ac09a.webp  "
   },
   {
@@ -36,8 +36,8 @@
   },
   {
     "id": 19,
-    "nombre": "E-BOOKS KLANET",
-    "slug": "e-books-klanet",
+    "nombre": "E-BOOKS",
+    "slug": "e-books",
     "descripcion": "E-Books con los que ganas más!!!",
     "imagen": "https://categories-content.klanet.world/mx/597465e1-93d5-4329-b402-a5f03dfed1c8.webp  "
   },
@@ -75,13 +75,6 @@
     "slug": "juguetes-y-ninos",
     "descripcion": "Juegos infantiles, juegos de mesa, etc.",
     "imagen": "https://categories-content.klanet.world/mx/62b05ab2-6434-44e2-abf7-e4bcf1078cb9.webp  "
-  },
-  {
-    "id": 14,
-    "nombre": "KLANET TOOLS",
-    "slug": "klanet-tools",
-    "descripcion": "La plataforma líder que está revolucionando la manera en que las empresas manejan sus operaciones de marketing, ventas y atención al cliente",
-    "imagen": "https://categories-content.klanet.world/mx/e92d407c-f9fd-495b-a5f0-86f09c951334.webp  "
   },
   {
     "id": 9,
